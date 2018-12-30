@@ -13,11 +13,11 @@ size = width,height
 screen = pg.display.set_mode(size)
 
 pg.display.set_caption("Flappy Angry Bird")
-bg = pg.image.load("./bg.jpg")
+bg = pg.image.load("./img/bg.jpg")
 bg = pg.transform.scale(bg, size)
-birdimg = pg.image.load("./bird.png")
+birdimg = pg.image.load("./img/bird.png")
 birdimg = pg.transform.scale(birdimg,(80*scale,80*scale))
-obs_img = pg.image.load("./wood.jpg")
+obs_img = pg.image.load("./img/wood.jpg")
 
 done = False
 clock = pg.time.Clock()
